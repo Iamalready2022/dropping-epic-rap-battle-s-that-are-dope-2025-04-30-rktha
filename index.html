@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapBattleCast - Epic Rap Battles & Hip-Hop Community</title>
+    <meta name="description" content="Join the ultimate rap battle community. Epic recaps, dope blogs, and pure hip-hop hype.">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+    <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                    RapBattleCast
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="https://rapbattlecast.com/signup" class="px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
+                        Join Now
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-32 px-6">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-gray-900"></div>
+            <div class="relative container mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Dropping epic rap battle's, that are Dope...
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
+                    Join the ultimate hip-hop community where battles become legends and every bar counts.
+                </p>
+                <a href="https://rapbattlecast.com/signup" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-semibold hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:scale-105">
+                    Start Battling Now
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-24 px-6 bg-gray-800/50">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    What Makes Us Dope
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Dope Rap Battles</h3>
+                        <p class="text-gray-400">Experience intense lyrical warfare with the most talented MCs in the game.</p>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2 2 0 00-2-2h-2"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Blogs That Slap</h3>
+                        <p class="text-gray-400">Stay updated with the freshest content and battle breakdowns in the culture.</p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Community Hype Hub</h3>
+                        <p class="text-gray-400">Connect with fellow battle rap enthusiasts and build your network.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-24 px-6">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Frequently Asked Questions
+                </h2>
+                <div class="space-y-6" x-data="{selected:null}">
+                    <div class="bg-gray-800 rounded-xl">
+                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-6">
+                            <span class="font-semibold">How do I join the battles?</span>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected === 1" class="p-6 pt-0 text-gray-400">
+                            Sign up, create your profile, and join the community. You can participate in scheduled battles or challenge other MCs.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 px-6 bg-gradient-to-br from-purple-900/40 to-gray-900">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-5xl font-bold mb-8">Ready to Drop Some Bars?</h2>
+                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join the most hyped rap battle community and showcase your skills.</p>
+                <a href="https://rapbattlecast.com/signup" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-semibold hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:scale-105">
+                    Join the Movement
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800/50 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">RapBattleCast</h3>
+                    <p class="text-gray-400">Where bars become legends.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <a href="mailto:breadcrumbsflow@gmail.com" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        breadcrumbsflow@gmail.com
+                    </a>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 RapBattleCast. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
